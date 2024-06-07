@@ -2,7 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+body {
+  background: #ebf0fa;
+  @apply text-gray-500 m-8;
+}
+
+h1, h2 {
+  @apply font-bold text-lg text-primary;
+}
+
+
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +41,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
